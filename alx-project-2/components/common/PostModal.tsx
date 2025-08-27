@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-
+import { PostModalProps } from "@/interfaces";
 
 export default function PostModal({ isOpen, onClose, onAddPost }: PostModalProps) {
   const [title, setTitle] = useState("");
